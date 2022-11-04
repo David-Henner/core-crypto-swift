@@ -3,11 +3,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "WireCoreCrypto",
+    name: "MyCoreCrypto",
     platforms: [.iOS(.v12)],
     products: [
         .library(
-            name: "WireCoreCrypto",
+            name: "MyCoreCrypto",
             targets: ["WireCoreCrypto", "CoreCryptoSwift"]
         ),
         .library(
