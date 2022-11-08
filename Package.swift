@@ -23,7 +23,7 @@ let package = Package(
         ),
         .systemLibrary(
             name: "LibCoreCrypto",
-            path: "./lib"
+            path: "./lib/"
         ),
         .target(
             name: "CoreCryptoSwift",
